@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Microsoft Helper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            padding: 1rem;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            margin: 1rem 0;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .btn:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>AI Microsoft Helper</h1>
+        <p>Your one-stop solution for Excel, Word, and PowerPoint assistance!</p>
+    </header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#excel">Excel Formula Bot</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="home">
+        <h2>Welcome to AI Microsoft Helper</h2>
+        <p>We provide AI-powered solutions to make your work with Microsoft apps easier than ever.</p>
+        <a href="#excel" class="btn">Try the Excel Formula Bot</a>
+    </section>
+    <section id="excel">
+        <h2>Excel Formula Bot</h2>
+        <p>Describe your problem, and our bot will generate or explain the formula you need!</p>
+        <form>
+            <textarea placeholder="Enter your Excel problem here..." rows="4" cols="50"></textarea><br>
+            <button type="submit" class="btn">Get Formula</button>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or feedback, feel free to reach out!</p>
+        <form>
+            <input type="text" placeholder="Your Name" required><br><br>
+            <input type="email" placeholder="Your Email" required><br><br>
+            <textarea placeholder="Your Message" rows="4" cols="50"></textarea><br>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 AI Microsoft Helper. All rights reserved.</p>
+    </footer>
+</body>
+</html>
